@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Services | WebeGen</title>
+    <style>
+        @media (max-width: 767.98px) {
+
+            body {
+                margin-top: -50px;
+                margin-right: -20px;
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                width: 100vw;
+                height: fit-content !important;
+                background-size: cover;
+                background-image: url("images/Frame1.png");
+                font-family: 'Montserrat', sans-serif !important;
+                background-repeat: no-repeat;
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
+
+            section {
+                margin-bottom: 10px;
+            }
+
+            .container {
+                margin: 0 !important;
+            }
+
+            .col-3 {
+                display: flex;
+                margin: 0 auto !important;
+                justify-content: center;
+                max-width: 90% !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-image: url('images/Frame2.png');">
+
+    <section class="hero-section">
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="22" height="24" class="d-inline-block align-top">
+                <b>WebeGen</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link a" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+    </section>
+    <p class="service-heading">Services</p>
+
+    <section class="services">
+        <div class="container">
+            <div class="row cards-1 justify-content-evenly">
+                <div class="col-3">
+                    <div class="cards">
+                        <p class="card-bgtxt">WEBSITE DEVELOPMENT</p>
+                        <p class="card-smtxt">
+                            Service website development is the creation of user-friendly websites that showcase and
+                            promote services offered by a business to potential clients. It involves design, coding,
+                            content creation, and customer interaction features.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="cards">
+                        <p class="card-bgtxt">APPLICATION DEVELOPMENT</p>
+                        <p class="card-smtxt">
+                            Service app development is the creation of mobile applications offering specific
+                            functionalities to users, solving particular problems or needs. Key elements include
+                            user-friendly interfaces, real-time features, secure payments, and seamless integration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="cards">
+                        <p class="card-bgtxt">UI/UX <br> DESIGN</p>
+                        <p class="card-smtxt">
+                            Service UI/UX design: Creating user-friendly and visually appealing digital interfaces to
+                            deliver seamless and satisfying user experiences.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="cards">
+                        <p class="card-bgtxt">VIDEO <br> EDITING</p>
+                        <p class="card-smtxt">
+                            Video editing is the art of crafting engaging videos by manipulating and enhancing footage
+                            using specialized software. It creates polished content for entertainment, marketing,
+                            education, and more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-value">
+        <p class="service-heading">Our Values</p>
+        <br>
+        <div class="container">
+            <div class="row ">
+                <div class="values">
+                    <div class="col-4">
+                        <div class="box-1"><span>1</span></div>
+                        <p><b>Extension of Your Team</b></p>
+                        <p>We act as a true extension of <br>your team, advancing business <br> objectives, alongside
+                            your
+                            <br> internal team.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <div class="box-1"><span>2</span></div>
+                        <p><b>Multi-Disciplinary Creators</b></p>
+                        <p>Our agency consists of <br> experienced marketers, <br> strategists, creatives and <br>
+                            developers.</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="box-1"><span>3</span></div>
+                        <p><b>Systematic Approach</b></p>
+                        <p>A comprehensive process <br> which is segmented into <br> phases and varied offerings. <br>
+                            From
+                            product ideation to <br> specialized marketing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <br><br>
+        <div class="custom-box">
+            <svg class="svg-border" viewBox="0 0 500 500">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#00ffee56" />
+                        <stop offset="100%" stop-color="#ff00e65d" />
+                    </linearGradient>
+                </defs>
+                <rect width="500" height="500" rx="320" ry="320"
+                    style="fill: none; stroke: url(#gradient); stroke-width: 5; stroke-dasharray: 10 10;" />
+            </svg>
+            Scalability <br>
+            Reliability <br>
+            Security
+        </div>
+        <div class="value-text-1">
+            Discover digital solutions <br> that help you to take your <br> industry by storm.
+        </div>
+        <div class="col-12">
+            <div class="d-flex justify-content-center mt-5">
+                <button class="btn-1 ">HIRE US</button>
+            </div>
+        </div>
+        <div class="value-text-2">
+            You’ll Be In Good Company
+        </div>
+        <br>
+        <br><br>
+        <img class="value-image " src="images/Object.svg" alt="SVG Image">
+        <br>
+        <br><br>
+        <div class="value-bar">
+            <div class="container">
+                <div class="row justify-content-evenly">
+                    <div class="col-5 mt-2 ">
+                        <p style="margin-bottom: 0px !important; ">Experience Smarter Digital.</p>
+                    </div>
+                    <div class="col-5 mt-2">
+                        <img src="images/music-icon.png" style="width: 40px; height: 40px; margin-right: 5px;" alt=""
+                            srcset="">START YOUR PROJECT.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <div class="footer mt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="brand-name">
+                        <img src="images/logo.png" style="color: white !important;" width="25" height="25"
+                            alt=""><b>WebeGen</b> <br>
+                        &copy; Copyright 2023 Webegen <br>
+                        Phone: +1 469 949 1165 <br>
+                        Sitemap | Privacy Policy
+                    </span>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="updates-inpt">Get Updates and resources</span>
+                    <div class="custom-input">
+                        <input type="text" >
+                        <a href="#"><i class="fas fa-paper-plane send-icon"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <span> Connect with us</span>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
